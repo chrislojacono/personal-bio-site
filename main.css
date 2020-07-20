@@ -1,0 +1,95 @@
+body{
+    background-image:url("images/phoebe-strafford-EBbP0Wrbmqs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+    font-family: 'Mukta', sans-serif;
+    background-blend-mode: soft-light;
+}
+.maintitle{
+    height:1.5em;
+    background-color:black;
+    color: #ECE5F0;
+    text-align: center;
+    padding-top: .5em;
+    /* text-transform: uppercase; */
+    text-shadow: 2px 2px grey;
+    letter-spacing: .08em;
+    width: 100%;
+   
+    
+}
+.flextitle{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    height: 83px;
+}
+h1{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+#navLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #022B3A;
+    color: #ECE5F0;
+    border: #022B3A 0px solid;
+    font-size: 1.2em;
+    align-items: center;
+    
+}
+nav{
+    margin: 0;
+    padding: 10px;
+    background-color: #022B3A;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+#navlinks li{
+    margin: 0px 100px;
+    
+}
+#profilePic{
+    height: 400px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#profilePic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.fullPage{
+    background-color: blanchedalmond;
+    width: 30%;
+    /* display: flex; */
+    margin-left: 30px;
+    border-radius: 20px;
+   
+
+}
+.fullpage h3{
+    margin: 20px;
+    font-size: 30px;
+}
+.fullpage p{
+    margin: 20px;
+    padding: 10px;
+}
+
+#technologiesPage{
+    float: inherit;
+}
