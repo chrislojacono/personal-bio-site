@@ -1,5 +1,5 @@
 body{
-    background-image:url("images/phoebe-strafford-EBbP0Wrbmqs-unsplash.jpg");
+    background-image:url("images/treesbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -15,7 +15,7 @@ body{
     padding-top: .5em;
     /* text-transform: uppercase; */
     text-shadow: 2px 2px grey;
-    letter-spacing: .08em;
+    letter-spacing: .09em;
     width: 100%;
    
     
@@ -53,7 +53,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-   
+   letter-spacing: .07em;
 
 }
 #navlinks li{
@@ -88,8 +88,4 @@ nav{
 .fullpage p{
     margin: 20px;
     padding: 10px;
-}
-
-#technologiesPage{
-    float: inherit;
 }
