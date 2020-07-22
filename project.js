@@ -58,7 +58,7 @@ const createProjectCards = () => {
 
 
 createProjectCards();
-// const init1 =() => {
-//     createProjectCards();
-// };
-// init1();
+const init1 =() => {
+    createProjectCards();
+};
+init1();
