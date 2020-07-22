@@ -12,39 +12,33 @@
 </head>
 
 <body>
-    <header class="navTitle">
-        <!-- Navigation -->
-        <div class="flextitle">
-            <h1 class="maintitle">Chris LoJacono</h1>
-        </div>
-
-        <nav>
-  <!-- TODO: Insert some sort of H1-H6 with your name here -->
-            <ul id="navLinks">
-                <li><a id="navToBio">Bio</a></li>
-                <li><a id="navToTechnologies">Technologies</a></li>
-                <li><a id="navToProjects">Projects</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar">
+        <ul>
+            
+                <li><a  class="navicon"href="./index.html">HomePage</a></li>
+            
+                <li><a class="navicon"href="./bio.html">Bio</a></li>
+                  
+                <li><a class="navicon"href="./technologies.html">Technologies</a></li>
+            
+                <li><a class="navicon"href="./portfolio.html">Portfolio</a></li>
+            
+                <li><a class="navicon"href="./contact.html">Contact</a></li>
+        </ul>
+            
+    </nav>
+   <header class="head">
+        <h1>Chris LoJacono</h1>
     </header>
-     
-<!-- End Navigation -->
-<!-- Profile Photo -->
-<main class="mainFront">
+    <main class="mainFront">
         <div class="fullPage" id="profilePic">
             <img src="/images/profilepic.jpeg" alt="profile picture">
         </div>
-
-<!-- Primary View -->
-
-
         <div class="fullPage" id="bioPage">
-  <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
             <h3>About Me</h3>
             <p>My name is Chris LoJacono, local to Nashville, TN, and  am currently a student attending The Nashville Software School. Being a life-long problem solver, I've finally found my passion in web development.</p>
         </div>
         <div class="fullPage" id="technologiesPage">
-  <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -52,26 +46,21 @@
                 <li>Terminal</li>
             </ul>
         </div>
+        
         <div class="fullPage" id="projectsPage"></div>
     </main>
-
-  <!-- End Primary View -->
-
-  <!-- Footer -->
-    <footer class="page-footer">
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+<footer class="page-footer">
+        <h3>Follow me on:</h3>
         <div class="footer-icons">
-            <h3>Follow me on:</h3>
             <ul>
                 <li><a href="https://www.instagram.com/clojacono/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                 <li><a href="https://github.com/chrislojacono"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 <li><a href="https://twitter.com/LojaconoChris"><i class="fa fa-twitter" aria-hidden="true"></i>
                 </a></li>
                 <li><a href="mailto: clojacono92@gmail.com"><i class="fa fa-envelope" id="envelope" aria-hidden="true"></i></i></a></li>
-                
             </ul>
         </div>
-  </footer>
+</footer>
   <!-- End Footer -->
 
   <script src="project.js"></script>
