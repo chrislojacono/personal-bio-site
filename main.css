@@ -54,8 +54,8 @@ body {
 
 /* This is the profile picture */
 #profilePic {
-  height: 25%;
-  width: 25%;
+  height: 70%;
+  width: 70%;
   margin-left: 2em;
   margin-top: 20px;
   border-radius: 50%;
@@ -71,28 +71,29 @@ body {
 /* This is the about me section and the technologies */
 
 .fullPage {
-  background-color: blanchedalmond;
-  height: 30%;
-  width: 30%;
   margin: 20px 40px 0px 20px;
   border-radius: 20px;
-}
-.mainFront {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-bottom: 100px;
-  justify-content: flex-start;
-  min-height: 100%;
-}
-
-.fullPage {
   display: flex;
   flex: 2;
   flex-flow: row wrap;
   justify-content: flex-start;
 }
+
+.mainFront {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 400px;
+  width: 100%;
+}
+#biopage{
+  background-color: blanchedalmond;
+  height: 90%;
+  width: 100%;
+}
+
 
 .fullpage h3 {
   margin: 20px;
@@ -106,31 +107,53 @@ body {
   margin-top: 15px;
   padding: 15px 0px 15px 40px;
   width: 20%;
+  background-color: blanchedalmond;
 }
-.projects {
-  margin: 30px;
-  height: 20%;
+.projects{
+  margin: 20px;
+  height: 100%;
+  width: 100%;
   border: 2px black solid;
   flex: 1;
+  background-color: blanchedalmond;;
+  
+  /* margin-bottom: 150px; */
 }
-.projectsPage {
+#projectsPage {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-end;
+  margin-bottom: 50px;
+  height:50%;
+  background-color:none;
 }
+.project-title, .project-picture, .project-description, .tech-used, .url, .github{
+height:16.66%;
+width: 100%;
+font-weight: 500;
+font-size: small;
+}
+.project-title h3{
+  font-size: large;
+  font-weight: bolder;
+}
+
+
+
 
 /* This is the footer */
 .page-footer {
   height: 100px;
   background-color: black;
   position: relative;
-  margin-top: -100px;
+  /* margin-top: 50px; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: blanchedalmond;
+  bottom: 0;
 }
 
 .footer-icons ul {
