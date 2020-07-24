@@ -11,7 +11,7 @@ body {
   object-fit: cover;
   background-position: center center;
   font-family: "Mukta", sans-serif;
-  height: 100vh;
+  height: 100%;
 }
 .navicon {
   display: flex;
@@ -46,98 +46,60 @@ body {
   text-transform: uppercase;
   color: blanchedalmond;
 }
-.head h4 {
-  padding-top: 1.7em;
-  font-family: "Times New Roman", Times, serif;
-  font-size: small;
-}
+
 
 /* This is the profile picture */
-#profilePic {
-  height: 70%;
-  width: 70%;
-  margin-left: 2em;
-  margin-top: 20px;
-  border-radius: 50%;
+.profilePic img{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-#profilePic img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border: 3px blanchedalmond solid;
-  border-radius: 50%;
+.info-section{
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
 }
-
 /* This is the about me section and the technologies */
+.about-me{
+  width: 30%;
+  background-color: lightgoldenrodyellow;
+  border: 2px black solid;
+  border-radius: 20%;
+  padding:20px;
+  
 
-.fullPage {
-  margin: 20px 40px 0px 20px;
-  border-radius: 20px;
-  display: flex;
-  flex: 2;
-  flex-flow: row wrap;
-  justify-content: flex-start;
 }
-
-.mainFront {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  height: 400px;
-  width: 100%;
-}
-#biopage{
-  background-color: blanchedalmond;
-  height: 90%;
-  width: 100%;
-}
-
-
-.fullpage h3 {
-  margin: 20px;
-  font-size: 30px;
-}
-.fullpage p {
-  margin: 20px;
-  padding: 10px;
-}
-#technologiespage {
-  margin-top: 15px;
-  padding: 15px 0px 15px 40px;
+.technologies-page{
+  background-color: lightgoldenrodyellow;
   width: 20%;
-  background-color: blanchedalmond;
+  border: 2px black solid;
+  border-radius: 20%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding:20px
+  
+}
+
+/* projects */
+
+.projects-page{
+  display: flex;
+  flex-direction: row;
+  
+ 
 }
 .projects{
-  margin: 20px;
-  height: 100%;
-  width: 100%;
-  border: 2px black solid;
-  flex: 1;
-  background-color: blanchedalmond;;
+  border: lime 2px solid;
+  margin: 10px;
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
   
-  /* margin-bottom: 150px; */
+
 }
-#projectsPage {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  margin-bottom: 50px;
-  height:50%;
-  background-color:none;
-}
-.project-title, .project-picture, .project-description, .tech-used, .url, .github{
-height:16.66%;
-width: 100%;
-font-weight: 500;
-font-size: small;
-}
-.project-title h3{
-  font-size: large;
-  font-weight: bolder;
-}
+
 
 
 
