@@ -47,31 +47,28 @@ body {
   color: blanchedalmond;
 }
 
-
 /* This is the profile picture */
-.profilePic img{
+.profilePic img {
   width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.info-section{
+.info-section {
   display: flex;
   height: 200px;
   justify-content: space-around;
   align-items: center;
 }
 /* This is the about me section and the technologies */
-.about-me{
+.about-me {
   width: 30%;
   background-color: lightgoldenrodyellow;
   border: 2px black solid;
   border-radius: 20%;
-  padding:20px;
-  
-
+  padding: 20px;
 }
-.technologies-page{
+.technologies-page {
   background-color: lightgoldenrodyellow;
   width: 20%;
   border: 2px black solid;
@@ -79,37 +76,27 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
-  padding:20px
-  
+  padding: 20px;
 }
 
 /* projects */
 
-.projects-page{
+.projects-page {
   display: flex;
   flex-direction: row;
-  
- 
 }
-.projects{
+.projects {
   border: lime 2px solid;
   margin: 10px;
   background-color: lightgoldenrodyellow;
   padding: 20px;
-  
-
 }
-
-
-
-
 
 /* This is the footer */
 .page-footer {
   height: 100px;
   background-color: black;
   position: relative;
-  /* margin-top: 50px; */
   display: flex;
   justify-content: center;
   align-items: center;
