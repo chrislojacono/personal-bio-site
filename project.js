@@ -40,16 +40,27 @@ const printToDom = (divId, textToPrint) => {
 const createProjectCards = () => {
     domString = "";
   for(let i = 0; i < projects.length; i++) {
-    domString += `  <div class="projects">`;
-    domString += `      <h3 class="project-title">${projects[i].title}</h3>`;
-    domString += `      <img class="project-picture" href=${projects[i].screenshot} alt="project picture">`;
-    domString += `      <p class="project-description">${projects[i].description}</p>`;
-    domString += `      <p class="tech-used">${projects[i].technologiesUsed}</p>`;
-    domString += `      <a class="url" href=${projects[i].url}> Check it out here!</a>`;
-    domString += `      <a class="github"href=${projects[i].githubUrl}> Github Link</a>`;
+    domString += `<div class="projects">`;
+    domString += `<div class="projects-title">`
+    domString += `<h3>${projects[i].title}</h3>`;
+    domString += `</div>`
+    domString += `<div class="project-image">`
+    domString += `<div class="project-image">`
+    domString += `<img class="project-picture" href=${projects[i].screenshot} alt="project picture">`;
+    domString += `</div>`
+    domString += `<div class="project-description"`
+    domString += `<p>${projects[i].description}</p>`;
+    domString += `</div>`
+    domString += `<div class="tech-used"`
+    domString += `<p class="tech-used">${projects[i].technologiesUsed}</p>`;
+    domString += `</div>`
+    domString += '<div class="project-title">'
+    domString += `<a class="url" href=${projects[i].url}> Check it out here!</a>`;
+    domString += `<a class="github"href=${projects[i].githubUrl}> Github Link</a>`;
+    domString += `</div>`
     domString += `  </div>`
   }
-//   if (projects.available === true) {
+//   if (projects[i].available === true) {
     printToDom("projectsPage", domString);
   
 };
