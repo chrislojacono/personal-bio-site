@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Adoption Website",
-    screenshot: "images/petadoption.jpg",
+    screenshot: "/images/adoption.jpg",
     description: "A small design to test event listeners",
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github, Event Listeners",
@@ -10,24 +10,24 @@ const projects = [
     githubUrl: "https://github.com/chrislojacono/pet-adoption",
   },
   {
-    title: "Cool Project",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
-    description: "This is the best project",
+    title: "Adoption Website",
+    screenshot: "/images/adoption.jpg",
+    description: "A small design to test event listeners",
     technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "HTML, CSS, Vanilla JavaScript, Version Control with Github, Event Listeners",
     available: true,
-    url: "https://github.com/nss-evening-cohort-8/js-part-deux",
-    githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
+    url: "https://practical-heyrovsky-fba724.netlify.app/",
+    githubUrl: "https://github.com/chrislojacono/pet-adoption",
   },
   {
-    title: "Cool Project",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
-    description: "This is the best project",
+    title: "Adoption Website",
+    screenshot: "/images/adoption.jpg",
+    description: "A small design to test event listeners",
     technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "HTML, CSS, Vanilla JavaScript, Version Control with Github, Event Listeners",
     available: true,
-    url: "https://github.com/nss-evening-cohort-8/js-part-deux",
-    githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
+    url: "https://practical-heyrovsky-fba724.netlify.app/",
+    githubUrl: "https://github.com/chrislojacono/pet-adoption",
   },
 ];
 
@@ -45,7 +45,7 @@ const createProjectCards = () => {
       domString += `<h3>${projects[i].title}</h3>`;
       domString += `</div>`;
       domString += `<div class="project-image">`;
-      domString += `<img class="project-picture" href=${projects[i].screenshot} alt="project picture">`;
+      domString += `<img class="project-picture" src="${projects[i].screenshot}" alt="project picture">`;
       domString += `</div>`;
       domString += `<div class="project-description">`;
       domString += `<p>${projects[i].description}</p>`;
@@ -53,8 +53,10 @@ const createProjectCards = () => {
       domString += `<div class="tech-used">`;
       domString += `<p class="tech-used">${projects[i].technologiesUsed}</p>`;
       domString += `</div>`;
-      domString += '<div class="project-title">';
+      domString += '<div class="project-url">';
       domString += `<a class="url" href=${projects[i].url}> Check it out here!</a>`;
+      domString += `</div>`;
+      domString += `<div class="project-github">`
       domString += `<a class="github"href=${projects[i].githubUrl}> Github Link</a>`;
       domString += `</div>`;
       domString += `</div>`;

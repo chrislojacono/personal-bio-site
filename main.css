@@ -49,34 +49,54 @@ body {
 
 /* This is the profile picture */
 .profilePic img {
-  width: 30%;
+  width: 100%;
   display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  border-radius: 30%;
+}
+.profilePic{
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
 }
+ 
+  
+
 .info-section {
   display: flex;
   height: 200px;
-  justify-content: space-around;
-  align-items: center;
+  justify-content:space-around ;
+  margin-bottom: 30px;
+  
+ 
+ 
+  /* justify-content: space-around;
+  align-items: center; */
 }
 /* This is the about me section and the technologies */
 .about-me {
   width: 30%;
   background-color: lightgoldenrodyellow;
   border: 2px black solid;
-  border-radius: 20%;
+  border-radius: 10%;
   padding: 20px;
+  overflow: hidden;
+  height: 90%;
 }
+
+
 .technologies-page {
   background-color: lightgoldenrodyellow;
-  width: 20%;
+  width: 30%;
   border: 2px black solid;
   border-radius: 20%;
   justify-content: center;
   display: flex;
   align-items: center;
   padding: 20px;
+  height: 90%;
+  font-size: x-large;
 }
 
 /* projects */
@@ -84,14 +104,22 @@ body {
 .projects-page {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 .projects {
-  border: lime 2px solid;
+  border:black 4px solid;
   margin: 10px;
   background-color: lightgoldenrodyellow;
   padding: 20px;
+  width: 33%;
 }
-
+.project-image{
+  width: 95%;
+}
+.project-picture{
+  object-fit: cover;
+  width: 80%;
+}
 /* This is the footer */
 .page-footer {
   height: 100px;
