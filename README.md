@@ -44,6 +44,7 @@ This page contains an array of current projects I'm working on/ have completed a
   }
   printToDom("projects-page", domString);
 };
+```
 
 #### Link
 https://chrislojacono.netlify.app/
