@@ -98,6 +98,9 @@ body {
   height: 90%;
   font-size: x-large;
 }
+.tech-icons{
+    list-style-type: none;
+}
 
 /* projects */
 
