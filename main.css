@@ -65,7 +65,7 @@ body {
 
 .info-section {
   display: flex;
-  height: 200px;
+  height: 300px;
   justify-content:space-around ;
   margin-bottom: 30px;
   
@@ -81,8 +81,11 @@ body {
   border: 2px black solid;
   border-radius: 10%;
   padding: 20px;
-  overflow: hidden;
+  /* overflow: scroll; */
+  text-overflow: ellipsis;
   height: 90%;
+  
+  
 }
 
 

@@ -20,14 +20,14 @@ const projects = [
     githubUrl: "https://github.com/chrislojacono/Event-Listeners",
   },
   {
-    title: "Adoption Website",
-    screenshot: "/images/adoption.jpg",
-    description: "A small design to test event listeners",
+    title: "Sorting Hat",
+    screenshot: "/images/SortingHat.png",
+    description: "A project to test event listeners and Javascript functionality with user input fields",
     technologiesUsed:
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github, Event Listeners",
+      "HTML, CSS, Vanilla JavaScript, Bootstrap 4, Event Listeners",
     available: true,
-    url: "https://practical-heyrovsky-fba724.netlify.app/",
-    githubUrl: "https://github.com/chrislojacono/pet-adoption",
+    url: "https://sortinghatcl.netlify.app/",
+    githubUrl: "https://github.com/chrislojacono/Sorting-Hat",
   },
 ];
 
