@@ -103,6 +103,10 @@ body {
 }
 .tech-icons{
     list-style-type: none;
+    padding: 0;
+}
+.tech-icons li{
+  margin: 10px;
 }
 
 /* projects */
